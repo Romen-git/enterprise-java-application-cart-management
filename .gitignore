@@ -1,0 +1,50 @@
+# Ignore target directories
+/target/
+/core/target/
+/ear/target/
+/ejb/target/
+/web/target/
+
+# IntelliJ IDEA files
+/.idea/
+/*.iml
+/workspace.xml
+/encodings.xml
+/vcs.xml
+/misc.xml
+/compiler.xml
+/jarRepositories.xml
+/jpa-buddy.xml
+
+# Ignore logs
+*.log
+
+# Ignore compiled class files
+*.class
+
+# Ignore Maven files
+.mvn/
+/pom.xml.tag
+/pom.xml.releaseBackup
+/pom.xml.versionsBackup
+/log/
+**/log/
+/target/
+release.properties
+
+# Ignore Eclipse specific files if used
+.project
+.classpath
+.settings/
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment specific configurations
+.env
